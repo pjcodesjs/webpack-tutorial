@@ -1,0 +1,24 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "Simple Webpack setup for beginners",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjcodesjs/webpack-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjcodesjs/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/pjcodesjs/webpack-tutorial#readme",
+  "devDependencies": {
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
