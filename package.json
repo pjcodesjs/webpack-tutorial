@@ -4,7 +4,8 @@
   "description": "Simple Webpack setup for beginners",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "dev": "webpack --mode development",
+    "start": "webpack serve --open 'Chrome'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/pjcodesjs/webpack-tutorial#readme",
   "devDependencies": {
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.27.1",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
